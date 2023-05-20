@@ -26,6 +26,13 @@
 
     &__nav-item {
         color: a.$color-font-secondary;
+        cursor: pointer;
+
+        a {
+            &:hover {
+                color: a.$color-font-primary;
+            }
+        }
     }
 
     &__login-section {
@@ -41,6 +48,10 @@
         &:link,
         &:visited {
         }
+
+        &:hover {
+            color: a.$color-font-primary;
+        }
     }
 
     &__signup-button {
@@ -48,5 +59,11 @@
         background-color: a.$color-cyan;
         padding: 0.8rem 2.3rem;
         border-radius: 2.8rem;
+
+        transition: filter 0.2s ease-out;
+
+        &:hover {
+            filter: opacity(0.6);
+        }
     }
 }

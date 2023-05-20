@@ -49,6 +49,10 @@ body {
 }
 .header__nav-item {
   color: #9e9aa8;
+  cursor: pointer;
+}
+.header__nav-item a:hover {
+  color: #34313d;
 }
 .header__login-section {
   display: flex;
@@ -59,11 +63,18 @@ body {
 .header__login-button {
   color: #9e9aa8;
 }
+.header__login-button:hover {
+  color: #34313d;
+}
 .header__signup-button {
   color: #fff;
   background-color: #2bd0d0;
   padding: 0.8rem 2.3rem;
   border-radius: 2.8rem;
+  transition: filter 0.2s ease-out;
+}
+.header__signup-button:hover {
+  filter: opacity(0.6);
 }
 
 /*# sourceMappingURL=main.css.map */
