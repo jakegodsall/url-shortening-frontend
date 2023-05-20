@@ -1,0 +1,19 @@
+@use '../abstracts' as a;
+
+.hero {
+    &__text-content {
+        max-width: 56rem;
+    }
+
+    &__title {
+        color: a.$color-font-primary;
+        font-size: 8rem;
+        line-height: 9rem;
+    }
+
+    &__description {
+        color: a.$color-font-secondary;
+        font-size: 2.2rem;
+        line-height: 3.6rem;
+    }
+}

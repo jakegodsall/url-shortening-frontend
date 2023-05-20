@@ -29,6 +29,18 @@ body {
   color: #34313d;
 }
 
+.button {
+  font-size: 2rem;
+  color: #fff;
+  background-color: #2bd0d0;
+  padding: 0.8rem 2.3rem;
+  border-radius: 2.8rem;
+  transition: filter 0.2s ease-out;
+}
+.button:hover {
+  filter: opacity(0.6);
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -75,6 +87,20 @@ body {
 }
 .header__signup-button:hover {
   filter: opacity(0.6);
+}
+
+.hero__text-content {
+  max-width: 56rem;
+}
+.hero__title {
+  color: #34313d;
+  font-size: 8rem;
+  line-height: 9rem;
+}
+.hero__description {
+  color: #9e9aa8;
+  font-size: 2.2rem;
+  line-height: 3.6rem;
 }
 
 /*# sourceMappingURL=main.css.map */
