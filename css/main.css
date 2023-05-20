@@ -42,6 +42,50 @@ body {
   filter: opacity(0.6);
 }
 
+.stat {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: start;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  padding-top: 5rem;
+  max-width: 25rem;
+  height: 20rem;
+}
+.stat__image {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  width: 6rem;
+  height: 6rem;
+  background-color: #3a3054;
+  padding: 1.5rem;
+  border-radius: 100%;
+}
+.stat__title {
+  margin: 0;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  color: #34313d;
+}
+.stat__description {
+  margin: 0;
+  color: #9e9aa8;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+.stat--top {
+  align-self: flex-start;
+}
+.stat--middle {
+  align-self: center;
+}
+.stat--bottom {
+  align-self: flex-end;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -131,6 +175,7 @@ body {
 .statistics__text-content {
   text-align: center;
   max-width: 45rem;
+  margin-bottom: 5rem;
 }
 .statistics__title {
   font-size: 4rem;
@@ -141,6 +186,13 @@ body {
   font-size: 1.8rem;
   line-height: 2.5rem;
   color: #9e9aa8;
+}
+.statistics__stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60vw;
+  height: 23rem;
 }
 
 /*# sourceMappingURL=main.css.map */
