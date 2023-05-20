@@ -34,6 +34,12 @@
     &__nav-item {
         font-size: 1.5rem;
         color: a.$color-font-secondary;
+
+        transition: all 0.3s ease-out;
+
+        &:hover {
+            color: #fff;
+        }
     }
 
     &__socials {

@@ -14,4 +14,16 @@
     &:hover {
         filter: opacity(0.6);
     }
+
+    &--lighter {
+        &:hover {
+            filter: brightness(1.2);
+        }
+    }
+
+    &--shorten {
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
 }

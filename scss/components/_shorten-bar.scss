@@ -1,0 +1,25 @@
+@use '../abstracts' as a;
+
+.shorten-bar {
+    position: relative;
+    z-index: 2;
+    transform: translateY(50%);
+    background-image: url('../../assets/images/bg-shorten-desktop.svg');
+    background-color: a.$color-blue-dark;
+    max-width: 70vw;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    margin-inline: auto;
+
+    display: flex;
+    gap: 2rem;
+
+    &__input {
+        flex: 1;
+        border-radius: 0.5rem;
+        height: 4rem;
+        padding-inline: 2rem;
+        outline: none;
+        border: none;
+    }
+}
