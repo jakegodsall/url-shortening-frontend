@@ -100,6 +100,45 @@ body {
   font-size: 2.8rem;
 }
 
+.footer {
+  background-color: #34313d;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 3.5rem 15rem 3.5rem 7rem;
+}
+.footer__logo {
+  filter: invert(100%);
+  align-self: flex-start;
+}
+.footer__nav {
+  margin-left: 20rem;
+  display: flex;
+  gap: 4rem;
+}
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer__nav-title {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.footer__nav-item {
+  font-size: 1.5rem;
+  color: #9e9aa8;
+}
+.footer__socials {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-left: auto;
+}
+
 .header {
   display: flex;
   align-items: center;
