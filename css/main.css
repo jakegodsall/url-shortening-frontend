@@ -29,4 +29,41 @@ body {
   color: #34313d;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 110.8rem;
+  margin-inline: auto;
+  margin-top: 4.8rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.header__logo {
+  width: 12rem;
+  height: 3.2rem;
+}
+.header__nav-list {
+  display: flex;
+  align-self: center;
+  gap: 3.2rem;
+}
+.header__nav-item {
+  color: #9e9aa8;
+}
+.header__login-section {
+  display: flex;
+  align-items: center;
+  gap: 3.7rem;
+  margin-left: auto;
+}
+.header__login-button {
+  color: #9e9aa8;
+}
+.header__signup-button {
+  color: #fff;
+  background-color: #2bd0d0;
+  padding: 0.8rem 2.3rem;
+  border-radius: 2.8rem;
+}
+
 /*# sourceMappingURL=main.css.map */
