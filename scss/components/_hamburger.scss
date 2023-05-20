@@ -1,0 +1,20 @@
+@use '../abstracts' as a;
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    cursor: pointer;
+    width: 3rem;
+    height: 2rem;
+
+    &__bar {
+        width: 100%;
+        height: 0.3rem;
+        background-color: a.$color-font-secondary;
+    }
+
+    &
+}

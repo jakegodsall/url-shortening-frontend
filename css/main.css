@@ -50,6 +50,22 @@ body {
   cursor: pointer;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  cursor: pointer;
+  width: 3rem;
+  height: 2rem;
+}
+.hamburger__bar {
+  width: 100%;
+  height: 0.3rem;
+  background-color: #9e9aa8;
+}
+
 .shorten-bar {
   position: relative;
   z-index: 2;
@@ -186,6 +202,11 @@ body {
   width: 12rem;
   height: 3.2rem;
 }
+@media only screen and (max-width: 950px) {
+  .header__nav {
+    display: none;
+  }
+}
 .header__nav-list {
   display: flex;
   align-self: center;
@@ -203,6 +224,11 @@ body {
   align-items: center;
   gap: 3.7rem;
   margin-left: auto;
+}
+@media only screen and (max-width: 950px) {
+  .header__login-section {
+    display: none;
+  }
 }
 .header__login-button {
   color: #9e9aa8;

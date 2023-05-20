@@ -10,12 +10,18 @@
     font-size: 1.5rem;
     font-weight: 700;
 
+    @media only screen and (max-width: 950px) {
+    }
+
     &__logo {
         width: 12rem;
         height: 3.2rem;
     }
 
     &__nav {
+        @media only screen and (max-width: 950px) {
+            display: none;
+        }
     }
 
     &__nav-list {
@@ -40,6 +46,10 @@
         align-items: center;
         gap: 3.7rem;
         margin-left: auto;
+
+        @media only screen and (max-width: 950px) {
+            display: none;
+        }
     }
 
     &__login-button {
