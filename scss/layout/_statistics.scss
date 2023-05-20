@@ -1,12 +1,23 @@
 @use '../abstracts' as a;
 
 .statistics {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15rem 5rem;
 
     background-color: a.$color-grey-light;
+
+    &__bar {
+        position: absolute;
+        top: 18rem;
+        bottom: 0;
+        margin: auto;
+        width: 55vw;
+        height: 0.7rem;
+        background-color: a.$color-cyan;
+    }
 
     &__text-content {
         text-align: center;
