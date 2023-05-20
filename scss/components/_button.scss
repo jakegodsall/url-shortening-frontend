@@ -1,11 +1,12 @@
 @use '../abstracts' as a;
 
 .button {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
     color: #fff;
 
     background-color: a.$color-cyan;
-    padding: 0.8rem 2.3rem;
+    padding: 1.2rem 2.7rem;
     border-radius: 2.8rem;
 
     transition: filter 0.2s ease-out;
