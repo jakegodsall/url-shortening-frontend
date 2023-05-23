@@ -10,11 +10,13 @@
     width: 3rem;
     height: 2rem;
 
+    @media only screen and (min-width: 950px) {
+        display: none;
+    }
+
     &__bar {
         width: 100%;
         height: 0.3rem;
         background-color: a.$color-font-secondary;
     }
-
-    &
 }
